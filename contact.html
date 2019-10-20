@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="contact.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        </style>
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <div><img class="img1" src="praveenphoto.jpg">
+        </div>  
+            <h1>PRAVEEN METHRASKAR</h1>
+        </header>
+        <ul class="nav">
+            <li><a href="home.html"><i class="material-icons">home</i></a></li>
+            <li><a href="aboutme.html">About Me!</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        
+
+        <div class="container">
+            <div class="row row panel panel-default">
+              <div class="col-sm-5 panel-body">
+                <h3 style="color:green;"><b><u>Contact</u></b></h3>
+                <ul>
+                  <address>Madannapet, Saidabad, Hyderabad-500059.</address>
+                  Phone No:+91 8897720286
+                </ul>
+                <P>Resume
+                <a href="praveen.pdf" download>
+                  <img src="download.jpg" width="104" height="142">
+                </a></P>
+                <p>follow me on</p>
+                <P>
+                    <a href="https://www.facebook.com/praveenmethraskar" target="_blank">
+                      <img src="fb.jpg" width="104" height="142">
+                </a></P>
+                <P>
+                    <a href="https://twitter.com/praveenmethras1" target="_blank">
+                      <img src="TwitterBig.png" width="104" height="142">
+                    </a></P>
+                
+
+
+              </div>
+              <div class="col-sm-7 panel-body">
+                <h3 style="color:green;"><b><u>Contact Form</u></b></h3>
+
+
+  <form action="contact.php" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit" name="submit">
+  </form>
+
+              </div>
+              
+            </div>
+          </div>
+
+        <footer>
+            <p><a href="">www.praveenmethraskar.com</a> &copy; 2019</p>
+        </footer>
+</body>
+</html>
