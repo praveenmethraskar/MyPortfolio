@@ -1,3 +1,4 @@
+/*
 <?php
 $servername = "localhost";
 $username = "root";
@@ -27,3 +28,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+*/
