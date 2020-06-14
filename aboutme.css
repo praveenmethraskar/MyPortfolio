@@ -33,7 +33,7 @@ body {
   .nav li a{
     text-decoration: none;
     display: block;
-    padding: 11px;
+    padding: 5px;
     margin: 9px;
   }
   
@@ -41,6 +41,9 @@ body {
     background: rgb(93, 131, 175);
     color: white;
   }
+h1 {
+    font-size: 15px;
+}
 footer {
     background-color: #777;
     padding: 10px;
