@@ -34,7 +34,7 @@ body {
   .nav li a{
     text-decoration: none;
     display: block;
-    padding: 11px;
+    padding: 5px;
     margin: 9px;
   }
   
@@ -53,8 +53,8 @@ footer {
     width: 100%;
 }
 .img1{
-    height: 190px;
-    width: 190px;
+    height: 200px;
+    width: 200px;
     margin: -65px;
     border: cornsilk;
     padding: 42px 45px;
@@ -64,8 +64,24 @@ footer {
 .align1{
   text-align:justify;
 }
-@media only screen and (max-width:375px){
-  nav, footer,header{
+@media only screen and (max-width:320px){
+  footer,header{
+    width:100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav li a {
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width:320px){
+  .align1{
+    width:100%;
+  }
+}
+@media only screen and (max-width:320px){
+  .img1{
     width:100%;
   }
 }
