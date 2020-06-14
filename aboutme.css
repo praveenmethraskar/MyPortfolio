@@ -69,8 +69,8 @@ footer {
     width:100%;
   }
 }
-@media screen and (max-width: 600px) {
-  .nav a {
+@media screen and (max-width: 375px) {
+  .nav li a {
     float: none;
     width: 100%;
   }
