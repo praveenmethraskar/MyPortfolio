@@ -58,11 +58,11 @@ h1 {
 .img1{
     height: 200px;
     width: 200px;
-    margin: -65px;
+    margin: -75px;
     border: cornsilk;
-    padding: 42px 45px;
-    border-radius:100px;
-    float:right;
+    padding: 65px 65px;
+    border-radius: 100px;
+    float: right;
 }
 .align1{
   text-align:justify;
